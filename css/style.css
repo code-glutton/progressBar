@@ -1,0 +1,14 @@
+:root {
+    --progress: 0%;
+}
+
+#bar {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #barProg {
+    width: var(--progress);
+    height: 30px;
+    background-color: green;
+  }
