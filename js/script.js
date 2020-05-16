@@ -1,4 +1,4 @@
-let inputVar = document.getElementsByTagName("input");
+let inputVar = document.getElementsByClassName("input");
 
 console.log(inputVar);
 
@@ -6,7 +6,7 @@ var arr = Array.from(inputVar);
 
      
 arr.map(x => {
-    console.log("osas");
+    console.log(x);
     x.addEventListener("change", () => {
         let progressNum = 20;
         let currentNum = getComputedStyle(document.documentElement)
