@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Progress bar</title>
 </head>
-<body>
+<body id="particles-js">
     <h1>Progress Bar</h1>
 
 	<!-- Show form progress here -->
@@ -49,6 +49,14 @@
 
 	<script src="./js/script.js">
 		// Project code...
-	</script>
+    </script>
+    	<script src="http://www.jsdelivr.com/#!particles.js">
+            // Project code...
+        </script>
+    <script>
+        particlesJS.load('particles-js', './js/assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+    </script>
 </body>
 </html>
