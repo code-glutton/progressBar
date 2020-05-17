@@ -1,5 +1,3 @@
-
-
 let inputVar = document.getElementsByClassName("input");
 
 console.log(inputVar);
@@ -18,13 +16,15 @@ arr.map(x => {
     let parsedCurrent = parseInt(currentNum);
     if (parsedCurrent < 100){
         console.log(parsedCurrent + " parsed Current");
-
+        
         let sum = progressNum + parsedCurrent;
         console.log(sum + " sum");
         document.documentElement.style
         .setProperty('--progress', `${sum}%`);
         console.log(getComputedStyle(document.documentElement)
         .getPropertyValue('--progress') + " num");
+
+
         }
         else{
             console.log("full");
